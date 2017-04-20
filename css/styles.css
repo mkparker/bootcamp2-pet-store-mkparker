@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+/*==============HEADER==============*/
+.logo {
+  width: 90px;
+}
+
+header h1 {
+  color: #FF827B;
+  font-family: 'Satisfy';
+  margin-top: 20px;
+}
+
+nav li {
+  font-size: 20px;
+
+}
+
+li a {
+  color: #61AEE6;
+  font-weight: 400;
+  font-family: 'Open Sans';
+}
+
+a:focus, a:hover {
+  color: #FF827B;
+  text-decoration: none;
+}
+
+nav {
+  top: 20px;
+}
+
+
+/*==========END HEADER============*/
+
+/*=======JUMBOTRON=======*/
+.jumbotron {
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+.jumbotron h2 {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  color: white;
+}
+/*========END JUMBOTRON=======*/
+
+/*CONTENT*/
+.features {
+  margin-bottom: 60px;
+}
+
+.product {
+  background-color: #EDF1f4;
+  border-radius: 5%;
+  border: 5px solid rgb(252, 252, 252);
+}
+
+.thumbnail {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #EDF1F4;
+}
+
+/*END CONTENT*/
